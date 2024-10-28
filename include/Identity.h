@@ -3,7 +3,7 @@
  * @Author:  shang guan meng luo
  * @version:
  * @Date: 2024-10-16 20:29:36
- * @LastEditTime: 2024-10-16 20:38:19
+ * @LastEditTime: 2024-10-17 07:59:17
  */
 #pragma once
 #include <iostream>
@@ -18,4 +18,9 @@ public:
 
     // 操作菜单    子类用多态去重写父类接口
     virtual void myMenu() = 0; // 纯虚函数
+
+     virtual ~Identity()       // 虚析构函数
+     {
+
+     } 
 };

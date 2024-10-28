@@ -3,7 +3,7 @@
  * @Author:  shang guan meng luo
  * @version:
  * @Date: 2024-10-16 20:57:58
- * @LastEditTime: 2024-10-16 21:13:22
+ * @LastEditTime: 2024-10-28 19:31:19
  */
 
 
@@ -20,7 +20,13 @@
 // 教师类
 #pragma once
 #include "Identity.h"
+#include "ComputerRoom.h"
+#include "globalFile.h"
+#include "showOrder.h"
 #include <iostream>
+#include <cstring>
+#include <fstream>
+#include <vector>
 using namespace std;
 
 

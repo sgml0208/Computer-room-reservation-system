@@ -1,0 +1,7 @@
+date(Monday-Friday):5		interval(1.morning,2.afternoon):1		stuId:1001		stuName:Bob	roomId:2	status:1
+date(Monday-Friday):3		interval(1.morning,2.afternoon):2		stuId:1001		stuName:Bob	roomId:2	status:0
+date(Monday-Friday):4		interval(1.morning,2.afternoon):1		stuId:1002		stuName:Jack	roomId:3	status:1
+date(Monday-Friday):2		interval(1.morning,2.afternoon):2		stuId:1003		stuName:Tom	roomId:2	status:2
+date(Monday-Friday):1		interval(1.morning,2.afternoon):1		stuId:1005		stuName:Abc	roomId:1	status:2
+date(Monday-Friday):4		interval(1.morning,2.afternoon):2		stuId:1007		stuName:Hello	roomId:3	status:-1
+date(Monday-Friday):5		interval(1.morning,2.afternoon):2		stuId:1009		stuName:Jim	roomId:3	status:1

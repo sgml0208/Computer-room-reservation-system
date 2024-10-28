@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/computer-system.dir/includes_CXX.rsp
 
-CXX_FLAGS = -std=gnu++11   -Wall -g
+CXX_FLAGS = -g -std=gnu++11   -Wall -g
 

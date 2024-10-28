@@ -145,6 +145,21 @@ CMakeFiles/computer-system.dir/main.cpp.obj: \
  D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/include/globalFile.h \
  D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/include/Identity.h \
  D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/include/Student.h \
+ D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/include/ComputerRoom.h \
+ D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/include/showOrder.h \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/map \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_tree.h \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/aligned_buffer.h \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_map.h \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tuple \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uses_allocator.h \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_multimap.h \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/erase_if.h \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/vector \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_uninitialized.h \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_vector.h \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_bvector.h \
+ D:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/vector.tcc \
  D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/include/Teacher.h \
  D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/include/Manager.h \
  D:/Dev-Cpp/mingw64/x86_64-w64-mingw32/include/windows.h \

@@ -83,19 +83,87 @@ CMakeFiles/computer-system.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/computer-system.dir/main.cpp.s"
 	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\main.cpp -o CMakeFiles\computer-system.dir\main.cpp.s
 
+CMakeFiles/computer-system.dir/src/Manager.cpp.obj: CMakeFiles/computer-system.dir/flags.make
+CMakeFiles/computer-system.dir/src/Manager.cpp.obj: CMakeFiles/computer-system.dir/includes_CXX.rsp
+CMakeFiles/computer-system.dir/src/Manager.cpp.obj: D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/src/Manager.cpp
+CMakeFiles/computer-system.dir/src/Manager.cpp.obj: CMakeFiles/computer-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/computer-system.dir/src/Manager.cpp.obj"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/computer-system.dir/src/Manager.cpp.obj -MF CMakeFiles\computer-system.dir\src\Manager.cpp.obj.d -o CMakeFiles\computer-system.dir\src\Manager.cpp.obj -c D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\Manager.cpp
+
+CMakeFiles/computer-system.dir/src/Manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/computer-system.dir/src/Manager.cpp.i"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\Manager.cpp > CMakeFiles\computer-system.dir\src\Manager.cpp.i
+
+CMakeFiles/computer-system.dir/src/Manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/computer-system.dir/src/Manager.cpp.s"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\Manager.cpp -o CMakeFiles\computer-system.dir\src\Manager.cpp.s
+
+CMakeFiles/computer-system.dir/src/Student.cpp.obj: CMakeFiles/computer-system.dir/flags.make
+CMakeFiles/computer-system.dir/src/Student.cpp.obj: CMakeFiles/computer-system.dir/includes_CXX.rsp
+CMakeFiles/computer-system.dir/src/Student.cpp.obj: D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/src/Student.cpp
+CMakeFiles/computer-system.dir/src/Student.cpp.obj: CMakeFiles/computer-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/computer-system.dir/src/Student.cpp.obj"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/computer-system.dir/src/Student.cpp.obj -MF CMakeFiles\computer-system.dir\src\Student.cpp.obj.d -o CMakeFiles\computer-system.dir\src\Student.cpp.obj -c D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\Student.cpp
+
+CMakeFiles/computer-system.dir/src/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/computer-system.dir/src/Student.cpp.i"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\Student.cpp > CMakeFiles\computer-system.dir\src\Student.cpp.i
+
+CMakeFiles/computer-system.dir/src/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/computer-system.dir/src/Student.cpp.s"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\Student.cpp -o CMakeFiles\computer-system.dir\src\Student.cpp.s
+
+CMakeFiles/computer-system.dir/src/Teacher.cpp.obj: CMakeFiles/computer-system.dir/flags.make
+CMakeFiles/computer-system.dir/src/Teacher.cpp.obj: CMakeFiles/computer-system.dir/includes_CXX.rsp
+CMakeFiles/computer-system.dir/src/Teacher.cpp.obj: D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/src/Teacher.cpp
+CMakeFiles/computer-system.dir/src/Teacher.cpp.obj: CMakeFiles/computer-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/computer-system.dir/src/Teacher.cpp.obj"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/computer-system.dir/src/Teacher.cpp.obj -MF CMakeFiles\computer-system.dir\src\Teacher.cpp.obj.d -o CMakeFiles\computer-system.dir\src\Teacher.cpp.obj -c D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\Teacher.cpp
+
+CMakeFiles/computer-system.dir/src/Teacher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/computer-system.dir/src/Teacher.cpp.i"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\Teacher.cpp > CMakeFiles\computer-system.dir\src\Teacher.cpp.i
+
+CMakeFiles/computer-system.dir/src/Teacher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/computer-system.dir/src/Teacher.cpp.s"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\Teacher.cpp -o CMakeFiles\computer-system.dir\src\Teacher.cpp.s
+
+CMakeFiles/computer-system.dir/src/showOrder.cpp.obj: CMakeFiles/computer-system.dir/flags.make
+CMakeFiles/computer-system.dir/src/showOrder.cpp.obj: CMakeFiles/computer-system.dir/includes_CXX.rsp
+CMakeFiles/computer-system.dir/src/showOrder.cpp.obj: D:/project-practice/learn_C++/CPlusPlus_projects/Computer-Room-Reservation-System/src/showOrder.cpp
+CMakeFiles/computer-system.dir/src/showOrder.cpp.obj: CMakeFiles/computer-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/computer-system.dir/src/showOrder.cpp.obj"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/computer-system.dir/src/showOrder.cpp.obj -MF CMakeFiles\computer-system.dir\src\showOrder.cpp.obj.d -o CMakeFiles\computer-system.dir\src\showOrder.cpp.obj -c D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\showOrder.cpp
+
+CMakeFiles/computer-system.dir/src/showOrder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/computer-system.dir/src/showOrder.cpp.i"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\showOrder.cpp > CMakeFiles\computer-system.dir\src\showOrder.cpp.i
+
+CMakeFiles/computer-system.dir/src/showOrder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/computer-system.dir/src/showOrder.cpp.s"
+	D:\Dev-Cpp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\src\showOrder.cpp -o CMakeFiles\computer-system.dir\src\showOrder.cpp.s
+
 # Object files for target computer-system
 computer__system_OBJECTS = \
-"CMakeFiles/computer-system.dir/main.cpp.obj"
+"CMakeFiles/computer-system.dir/main.cpp.obj" \
+"CMakeFiles/computer-system.dir/src/Manager.cpp.obj" \
+"CMakeFiles/computer-system.dir/src/Student.cpp.obj" \
+"CMakeFiles/computer-system.dir/src/Teacher.cpp.obj" \
+"CMakeFiles/computer-system.dir/src/showOrder.cpp.obj"
 
 # External object files for target computer-system
 computer__system_EXTERNAL_OBJECTS =
 
 computer-system.exe: CMakeFiles/computer-system.dir/main.cpp.obj
+computer-system.exe: CMakeFiles/computer-system.dir/src/Manager.cpp.obj
+computer-system.exe: CMakeFiles/computer-system.dir/src/Student.cpp.obj
+computer-system.exe: CMakeFiles/computer-system.dir/src/Teacher.cpp.obj
+computer-system.exe: CMakeFiles/computer-system.dir/src/showOrder.cpp.obj
 computer-system.exe: CMakeFiles/computer-system.dir/build.make
 computer-system.exe: CMakeFiles/computer-system.dir/linkLibs.rsp
 computer-system.exe: CMakeFiles/computer-system.dir/objects1.rsp
 computer-system.exe: CMakeFiles/computer-system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable computer-system.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\project-practice\learn_C++\CPlusPlus_projects\Computer-Room-Reservation-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable computer-system.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\computer-system.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

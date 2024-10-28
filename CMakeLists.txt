@@ -19,6 +19,10 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 #添加可执行程序
 add_executable(computer-system 
         main.cpp
+        src/Manager.cpp
+        src/Student.cpp
+        src/Teacher.cpp
+        src/showOrder.cpp
 
 )
 

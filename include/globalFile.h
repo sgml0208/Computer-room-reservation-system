@@ -3,7 +3,7 @@
  * @Author:  shang guan meng luo
  * @version:
  * @Date: 2024-10-16 21:14:55
- * @LastEditTime: 2024-10-16 21:52:42
+ * @LastEditTime: 2024-10-22 22:08:30
  */
 
 #pragma once
@@ -15,6 +15,6 @@
 // 教师文件
 #define TEACHER_FILE "../dataFile/teacher.txt"
 // 机房信息文件
-#define COMPUTER_FILE "../dataFile/computer.txt"
+#define COMPUTER_FILE "../dataFile/computerRoom.txt"
 // 预约订单文件
 #define RESERVATION_FILE "../dataFile/reservation.txt"

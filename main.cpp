@@ -3,7 +3,7 @@
  * @Author:  shang guan meng luo
  * @version:
  * @Date: 2024-10-15 22:15:03
- * @LastEditTime: 2024-10-16 22:49:33
+ * @LastEditTime: 2024-10-28 19:27:51
  */
 
 /*
@@ -68,6 +68,128 @@
 #include <windows.h>
 using namespace std;
 
+// 管理员菜单功能
+void managerMenu(Identity *&manager) // 传入父类指针
+{
+    while (true)
+    {
+        // 管理员菜单界面
+        manager->myMenu();
+        // 将父类指针转为子类指针，以便调用子类其他接口
+        Manager * man = (Manager *)manager;
+        int choice = -1;
+        cout << "请输入您的选择: ";
+        cin >> choice;
+        switch (choice)
+        {
+        case 1: // 添加账号
+            man->addPerson();
+            break;
+        case 2: // 查看账号
+            man->showPeople();
+            break;
+        case 3: // 查看机房
+            man->showComputerRoom();
+            break;
+        case 4: // 清空预约
+            man->cleanReservation();
+            break;
+        case 0: // 退出
+            cout << "退出成功，欢迎下次使用!" << endl;
+            delete manager; // 销毁堆区对象，不能改成delete man，man是局部指针，函数结束也跟着释放了
+            manager = nullptr; // 使用nullptr代替NULL，更符合C++标准
+            system("pause");
+            system("cls");
+            return;
+        default:
+            cout << "您输入的选择有误，请重新输入您的选择!" << endl;
+            system("pause");
+            system("cls");
+            break;
+        }
+    }
+}
+
+
+// 学生菜单功能           atoi(s.c_str()): string -> int
+void studentMenu(Identity *&student) // 传入父类指针
+{
+    while (true)
+    {
+        // 学生菜单界面
+        student->myMenu();
+        // 将父类指针转为子类指针，以便调用子类其他接口
+        Student * stu = (Student *)student;
+        int choice = -1;
+        cout << "请输入您的选择: ";
+        cin >> choice;
+        switch (choice)
+        {
+        case 1: // 申请预约
+            stu->applyOrder();
+            break;
+        case 2: // 查看我的预约
+            stu->showMyOrder();
+            break;
+        case 3: // 查看所有预约
+            stu->showAllOrder();
+            break;
+        case 4: // 取消预约
+            stu->cancelMyOrder();
+            break;
+        case 0: // 退出
+            cout << "退出成功，欢迎下次使用!" << endl;
+            delete student; // 销毁堆区对象
+            student = nullptr; // 使用nullptr代替NULL，更符合C++标准
+            system("pause");
+            system("cls");
+            return;
+        default:
+            cout << "您输入的选择有误，请重新输入您的选择!" << endl;
+            system("pause");
+            system("cls");
+            break;
+        }
+    }
+}
+
+// 教师菜单功能           
+void teacherMenu(Identity *&teacher) // 传入父类指针
+{
+    while (true)
+    {
+        // 学生菜单界面
+        teacher->myMenu();
+        // 将父类指针转为子类指针，以便调用子类其他接口
+        Teacher * tea = (Teacher *)teacher;
+        int choice = -1;
+        cout << "请输入您的选择: ";
+        cin >> choice;
+        switch (choice)
+        {
+        case 1: // 查看所有预约
+            tea->showAllOrder();
+            break;
+        case 2: // 审核预约
+            tea->verifyMyOrder();
+            break;
+        case 0: // 退出
+            cout << "退出成功，欢迎下次使用!" << endl;
+            delete teacher; // 销毁堆区对象
+            teacher = nullptr; // 使用nullptr代替NULL，更符合C++标准
+            system("pause");
+            system("cls");
+            return;
+        default:
+            cout << "您输入的选择有误，请重新输入您的选择!" << endl;
+            system("pause");
+            system("cls");
+            break;
+        }
+    }
+}
+
+
 // 登录函数
 // fileName ---操作的文件名
 // type ---登录的身份 (1代表学生、2代表老师、3代表管理员)
@@ -114,12 +236,10 @@ void login(string fileName, int type)
             if (id == sid && name == sname && pwd == spwd) // 中文无法通过，需要将txt文件编码换成ANSI格式试试
             {
                 cout << "学生验证登录成功! " << endl;
-                system("pause");
                 system("cls");
-
-                // person = new Student(id, name, pwd);
+                person = new Student(id, name, pwd);
                 // 进入学生菜单页面
-
+                studentMenu(person);
                 return;
             }
         }
@@ -134,12 +254,10 @@ void login(string fileName, int type)
             if (id == tid && name == tname && pwd == tpwd)
             {
                 cout << "教师验证登录成功! " << endl;
-                system("pause");
                 system("cls");
-
-                // person = new Teacher(id, name, pwd);
+                person = new Teacher(id, name, pwd);
                 // 进入教师菜单页面
-
+                teacherMenu(person);
                 return;
             }
         }
@@ -152,13 +270,12 @@ void login(string fileName, int type)
         {
             if (name == mname && pwd == mpwd)
             {
-                cout << "管理员验证登录成功! " << endl;
-                system("pause");
+                // cout << "管理员验证登录成功! " << endl;
+                // system("pause");
                 system("cls");
-
-                // person = new Manager(name, pwd);
+                person = new Manager(name, pwd);
                 // 进入管理员菜单页面
-
+                managerMenu(person);
                 return;
             }
         }

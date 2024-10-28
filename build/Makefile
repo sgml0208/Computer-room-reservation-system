@@ -152,6 +152,102 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Manager.obj: src/Manager.cpp.obj
+.PHONY : src/Manager.obj
+
+# target to build an object file
+src/Manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/Manager.cpp.obj
+.PHONY : src/Manager.cpp.obj
+
+src/Manager.i: src/Manager.cpp.i
+.PHONY : src/Manager.i
+
+# target to preprocess a source file
+src/Manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/Manager.cpp.i
+.PHONY : src/Manager.cpp.i
+
+src/Manager.s: src/Manager.cpp.s
+.PHONY : src/Manager.s
+
+# target to generate assembly for a file
+src/Manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/Manager.cpp.s
+.PHONY : src/Manager.cpp.s
+
+src/Student.obj: src/Student.cpp.obj
+.PHONY : src/Student.obj
+
+# target to build an object file
+src/Student.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/Student.cpp.obj
+.PHONY : src/Student.cpp.obj
+
+src/Student.i: src/Student.cpp.i
+.PHONY : src/Student.i
+
+# target to preprocess a source file
+src/Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/Student.cpp.i
+.PHONY : src/Student.cpp.i
+
+src/Student.s: src/Student.cpp.s
+.PHONY : src/Student.s
+
+# target to generate assembly for a file
+src/Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/Student.cpp.s
+.PHONY : src/Student.cpp.s
+
+src/Teacher.obj: src/Teacher.cpp.obj
+.PHONY : src/Teacher.obj
+
+# target to build an object file
+src/Teacher.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/Teacher.cpp.obj
+.PHONY : src/Teacher.cpp.obj
+
+src/Teacher.i: src/Teacher.cpp.i
+.PHONY : src/Teacher.i
+
+# target to preprocess a source file
+src/Teacher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/Teacher.cpp.i
+.PHONY : src/Teacher.cpp.i
+
+src/Teacher.s: src/Teacher.cpp.s
+.PHONY : src/Teacher.s
+
+# target to generate assembly for a file
+src/Teacher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/Teacher.cpp.s
+.PHONY : src/Teacher.cpp.s
+
+src/showOrder.obj: src/showOrder.cpp.obj
+.PHONY : src/showOrder.obj
+
+# target to build an object file
+src/showOrder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/showOrder.cpp.obj
+.PHONY : src/showOrder.cpp.obj
+
+src/showOrder.i: src/showOrder.cpp.i
+.PHONY : src/showOrder.i
+
+# target to preprocess a source file
+src/showOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/showOrder.cpp.i
+.PHONY : src/showOrder.cpp.i
+
+src/showOrder.s: src/showOrder.cpp.s
+.PHONY : src/showOrder.s
+
+# target to generate assembly for a file
+src/showOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\computer-system.dir\build.make CMakeFiles/computer-system.dir/src/showOrder.cpp.s
+.PHONY : src/showOrder.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +260,18 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/Manager.obj
+	@echo ... src/Manager.i
+	@echo ... src/Manager.s
+	@echo ... src/Student.obj
+	@echo ... src/Student.i
+	@echo ... src/Student.s
+	@echo ... src/Teacher.obj
+	@echo ... src/Teacher.i
+	@echo ... src/Teacher.s
+	@echo ... src/showOrder.obj
+	@echo ... src/showOrder.i
+	@echo ... src/showOrder.s
 .PHONY : help
 
 

@@ -3,7 +3,7 @@
  * @Author:  shang guan meng luo
  * @version:
  * @Date: 2024-10-16 20:35:07
- * @LastEditTime: 2024-10-16 21:13:07
+ * @LastEditTime: 2024-10-28 16:38:46
  */
 
 
@@ -21,7 +21,13 @@
 
 #pragma once
 #include "Identity.h"
+#include "ComputerRoom.h"
+#include "globalFile.h"
+#include "showOrder.h"
 #include <iostream>
+#include <cstring>
+#include <fstream>
+#include <vector>
 using namespace std;
 
 // 学生类
@@ -30,11 +36,17 @@ class Student : public Identity
 public:
     int m_sid;      // 学号
 
+    // 机房容器
+    vector<ComputerRoom> vc;
+
     Student();   // 默认构造
     Student(int id, string name, string pwd); // 有参构造
 
     // 学生菜单界面    用多态重写父类接口
     virtual void myMenu(); 
+
+    // 初始化容器
+    void initVector();
 
     // 申请预约
     void applyOrder();
@@ -44,6 +56,10 @@ public:
 
     // 查看所有预约
     void showAllOrder();
+
+    // 取消我的预约
+    void cancelMyOrder();
     
-    
+    // 默认析构函数
+    ~Student();
 };

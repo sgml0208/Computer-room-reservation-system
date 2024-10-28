@@ -47,5 +47,10 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "fstream": "cpp"
+    },
+    "files.exclude": { // 隐藏不要.d和.o的文件
+        "**/*.d": true,
+        "**/*.o": true
     }
 }
+
